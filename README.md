@@ -31,8 +31,6 @@ JavaScript&ES6/7:
 8)  Avoid multiple if/else blocks.(use switch instead).
 9)  For ternary operator in multi-line place the ? and  : on their own lines.
 10)  Code has no any linter errors or warnings.
-
-
 11)  No console.logs.
 12)  When you use console.log for testing a result use it like this console.log(‘valueName’ , val) a small string before your value can make tracing more easy.
 13)  No debugger statements.
@@ -60,13 +58,8 @@ JavaScript&ES6/7:
 
 
 
-
-
-
-
-
 Frameworks and libraries:
-	React:
+  React:
 
 1)  Put the > of a multi-line JSX element at the end of the last line instead of being alone on the next line. 
 Ex:<Component
@@ -78,7 +71,8 @@ Ex:<Component
 5)  No useless constructor.
 6)  Avoid using an array index as key prop, instead use a unique ID.
 
-
-
-
-
+Version control system:
+   Git:
+1) Commits are small and divided into logical parts.
+2) Commits messages are small and understandable.
+3) Use branches for new features.
