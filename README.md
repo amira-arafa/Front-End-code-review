@@ -86,3 +86,8 @@ Ex:<Component
 4) Do not animate width, height, top, left and others. Use transform instead.
 5) Use same units for all project.
 6) Avoid inline styles.
+7) Use lower case letter for selectors and properties.
+8) Put spaces after “:” in CSS property declarations
+(Example: color:#FF0000 – Bad, color: #FF0000 – Better)
+9) Use shorthand properties.
+(Example: margin:  10px 20px;)
