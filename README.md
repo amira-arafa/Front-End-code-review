@@ -48,13 +48,15 @@
 25)  Error handling: For any external request , should be handle any error might be accrued ,Error messages should be found in one shared file.
 26)  Edge cases handling:Cases like Null , Zero , NaN and negative should be handled.
 27)  Always use === instead of ==.
-28)  Use const over let (avoid var).
-29)  Use arrow functions instead of var that = this.
-30)  Use destructuring assignment for arrays and objects.
-31)  Use spread/rest operator.
-32)  Use default values.
-33)  Use template literals.
-34)  Use Promises or Asyns/Await. Rejection is handled.
+28)  Arrays indexes should be always within bound.
+29) APIs calls should be centralized in one file (Service) to avoid logic duplication.
+30)  Use const over let (avoid var).
+31)  Use arrow functions instead of var that = this.
+32)  Use destructuring assignment for arrays and objects.
+33)  Use spread/rest operator.
+34)  Use default values.
+35)  Use template literals.
+36)  Use Promises or Asyns/Await. Rejection is handled.
 
 
 
@@ -76,3 +78,11 @@ Ex:<Component
 1) Commits are small and divided into logical parts.
 2) Commits messages are small and understandable.
 3) Use branches for new features.
+
+#### Style
+1) Consistent naming conventions are used (BEM, OOCSS, SMACSS, e.t.c.).
+2) Use Hex color codes #000 unless using rgba().
+3) Avoid !important.
+4) Do not animate width, height, top, left and others. Use transform instead.
+5) Use same units for all project.
+6) Avoid inline styles.
