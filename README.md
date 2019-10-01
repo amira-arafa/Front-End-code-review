@@ -91,3 +91,16 @@ Ex:<Component
 (Example: color:#FF0000 – Bad, color: #FF0000 – Better)
 9) Use shorthand properties.
 (Example: margin:  10px 20px;)
+
+#### Bem (Block Element Modifier)
+   ##### Naming convention
+  1. block names must be unique, 
+  2. For Element : the element name is separated from the block name with a double underscore 
+  3. For Modifier : Modifier name is separated from the block or element name with a double dashe 
+    ##### Using
+  1. No id’s.
+  2. Nesting elements with block name;
+  3. No modifier independent.
+
+
+
