@@ -1,7 +1,7 @@
 # Front-End-code-review
 
 #### General checklist:
-1)  The number of spaces per indentation-level (2 spaces).
+-[ ]  The number of spaces per indentation-level (2 spaces).
 2)  Capitalization of the first letter of a comment.
 3)  Make sure you remove commented out code.
 4)  Do not write comments for what you are doing, instead write comments on why you     are doing and For every method there should be sufficient comments about its  function,parameters and the exception it might be thrown.
