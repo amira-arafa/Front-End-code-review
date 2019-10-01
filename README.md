@@ -1,6 +1,6 @@
 # Front-End-code-review
 
-#### General checklist:
+### General checklist:
 1)  The number of spaces per indentation-level (2 spaces).
 2)  Capitalization of the first letter of a comment.
 3)  Make sure you remove commented out code.
