@@ -1,6 +1,6 @@
 # Front-End-code-review
 
-### General checklist:
+#### General checklist:
 1)  The number of spaces per indentation-level (2 spaces).
 2)  Capitalization of the first letter of a comment.
 3)  Make sure you remove commented out code.
@@ -12,7 +12,7 @@
 9) Use single quotes for string except to avoid escaping.
 10) No multiple empty lines,avoid empty lines in the end and beginning of functions (before the closing and opening brackets).
 
-HTML:
+#### HTML:
 1)  do not Use Inline Styles on your code.
 2)  do not Use Inline JavaScript.
 3)  Make Use of Semantic Elements.
@@ -20,7 +20,7 @@ HTML:
 
 
 
-JavaScript&ES6/7:
+#### JavaScript&ES6/7:
 1)  Curly braces opening at the same line of if statement or for loop and keep the else statement on the same line as their curly braces.
 2)  Print semicolons at the end of statements.
 3)  No hardcoded values, use constants values (don`t use calculated values inside the variables).
@@ -58,8 +58,8 @@ JavaScript&ES6/7:
 
 
 
-Frameworks and libraries:
-  React:
+#### Frameworks and libraries:
+  ##### React:
 
 1)  Put the > of a multi-line JSX element at the end of the last line instead of being alone on the next line. 
 Ex:<Component
@@ -71,8 +71,8 @@ Ex:<Component
 5)  No useless constructor.
 6)  Avoid using an array index as key prop, instead use a unique ID.
 
-Version control system:
-   Git:
+#### Version control system:
+   ##### Git:
 1) Commits are small and divided into logical parts.
 2) Commits messages are small and understandable.
 3) Use branches for new features.
