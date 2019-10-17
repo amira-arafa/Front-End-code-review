@@ -1,5 +1,24 @@
 # Front-End-code-review
 
+
+## In This Documentation We Will Talk about :
+
+  - ### General checklist
+  - ### HTML
+  - ### JavaScript&ES6/7
+  - ### Frameworks and libraries
+    - React
+
+  - ### Version control system
+    - Git
+    - Husky
+    
+  - ### Style
+    - General style
+    - Bem
+    
+---------------------------------------------------------------------------------------------------------------------------
+
 #### General checklist:
 1)  The number of spaces per indentation-level (2 spaces).
 2)  Capitalization of the first letter of a comment.
@@ -94,17 +113,19 @@ Ex:<Component
   },
 
 #### Style
-1) Consistent naming conventions are used (BEM, OOCSS, SMACSS, e.t.c.).
-2) Use Hex color codes #000 unless using rgba().
-3) Avoid !important.
-4) Do not animate width, height, top, left and others. Use transform instead.
-5) Use same units for all project.
-6) Avoid inline styles.
-7) Use lower case letter for selectors and properties.
-8) Put spaces after “:” in CSS property declarations
-(Example: color:#FF0000 – Bad, color: #FF0000 – Better)
-9) Use shorthand properties.
-(Example: margin:  10px 20px;)
+
+##### General style
+  1) Consistent naming conventions are used (BEM, OOCSS, SMACSS, e.t.c.).
+  2) Use Hex color codes #000 unless using rgba().
+  3) Avoid !important.
+  4) Do not animate width, height, top, left and others. Use transform instead.
+  5) Use same units for all project.
+  6) Avoid inline styles.
+  7) Use lower case letter for selectors and properties.
+  8) Put spaces after “:” in CSS property declarations
+  (Example: color:#FF0000 – Bad, color: #FF0000 – Better)
+  9) Use shorthand properties.
+  (Example: margin:  10px 20px;)
 
 #### Bem (Block Element Modifier)
    ##### Naming convention
