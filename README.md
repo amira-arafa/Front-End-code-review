@@ -79,6 +79,20 @@ Ex:<Component
 2) Commits messages are small and understandable.
 3) Use branches for new features.
 
+##### Husky-
+###### Husky with Eslint and prettier
+1) npm install -save --dev husky
+2) in package.json add the following -->
+  "scripts": {
+         "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix",
+    "precommit": "lint-staged && npm test",
+    "prettier": "prettier --write src/**/*.{js,css}"
+  }, "husky": {
+    "hooks": {
+      "pre-commit": "npm run pretest && npm run prettier "
+    }
+  },
+
 #### Style
 1) Consistent naming conventions are used (BEM, OOCSS, SMACSS, e.t.c.).
 2) Use Hex color codes #000 unless using rgba().
